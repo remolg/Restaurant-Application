@@ -13,6 +13,7 @@ a {
     margin-top: 32px;
     align-items: center;
 }
+
 .header ul {
     display: flex;
     gap: 48px;
@@ -21,7 +22,6 @@ a {
 /* Hero */
 
 .hero {
-    display: block;
     background-image: url("/assets/img/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,14 +44,14 @@ a {
     gap: 40px;
     display: flex;
     flex-direction: column;
-    font-family: 'Montserrat', sans-serif;   
+    font-family: 'Montserrat', sans-serif;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .herocontainer h2 {
     font-size: 80px;
-    
+
 }
 
 .herocontainer a {
@@ -88,7 +88,7 @@ a {
 
 }
 
-.circle { 
+.circle {
     background-image: url("/assets/img/daire.svg");
     background-size: 100% 100%;
     width: 165px;
@@ -119,14 +119,14 @@ a {
 }
 
 .latestrecipes img {
-   height: 293px;
+    height: 293px;
 }
 
 .latestrecipes p {
     font-size: 20px;
-    margin: 8px 0 0 ;
+    margin: 8px 0 0;
     line-height: 1.5;
-    text-align: left;  
+    text-align: left;
     margin-bottom: 32px;
 }
 
@@ -211,7 +211,7 @@ input[type=text] {
 
 .strawberrypart1 {
     width: 443px;
-    
+
 }
 
 .strawberryh1 {
@@ -226,8 +226,8 @@ input[type=text] {
 }
 
 .strawberryicon {
-    display: flex;  
-    align-items: center;  
+    display: flex;
+    align-items: center;
     margin-bottom: 16px;
 }
 
@@ -247,14 +247,13 @@ input[type=text] {
     font-family: Montserrat;
     color: white;
     font-size: 23px;
-     font-weight: 600;
+    font-weight: 600;
 }
 
 /* Featured collections */
 
 .featuredcollections {
     display: flex;
-    gap: 24px;
     font-size: 30px;
     font-family: Montserrat;
     line-height: 1.23;
@@ -323,5 +322,3 @@ input[type=text] {
     display: flex;
     gap: 40px;
 }
-
-
